@@ -1,0 +1,14 @@
+.slider{
+      width: 600px;
+}
+.swiper-slide{
+    background: #fff;
+    padding: 40pxz;
+    border-radius: 5px;
+}
+.slide-img-01 img, .slide-img-02 img, .slide-img-03 img{
+    width: 100%;
+}
+.slide-img-01 {
+    background: red;
+}

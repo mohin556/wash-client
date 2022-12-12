@@ -52,21 +52,21 @@
 .box-01{
     width: 400px;
     height: 400px;
-    border-radius: 100%;
-    border: 25px solid rgba(141,141,235,1);
+    border-radius: 20%;
+    border-bottom: 25px solid rgba(141,141,235,1);
 }
 .box-02{
     width: 350px;
     height: 350px;
-    border-radius: 100%;
-    border: 25px solid #b5a9f3;
+    border-radius: 20%;
+    border-bottom: 25px solid #b5a9f3;
 }
-.box-03{
+/* .box-03{
     width: 300px;
     height: 300px;
-    border-radius: 100%;
-    border: 25px solid #d3cef2;
-}
+    border-radius: 20%;
+    border-right: 25px solid #d3cef2;
+} */
 
 .hero-img-wraper{
     position: relative;
@@ -74,20 +74,20 @@
 }
 .box-img{
     position: absolute;
-    top: 2%;
-    left: -3%;
+    top: -5%;
+    left: -5%;
     z-index: -10;
 }
 .box-img img{
-   width: 121%;
+   width: 123%;
  
 
 }
 .heart-rate{
     width: 100px;
     position: absolute;
-    top: 55%;
-    left: -11%;
+    top: 58%;
+    left: -17%;
     z-index: 10;
     box-shadow: -3px 3px 8px -1px #d3cef2;
     text-align: center;
@@ -128,14 +128,14 @@
 
 .gym-location {
     position: absolute;
-    top: -2%;
-    right: 28%;
+    top: -16%;
+    right: -9%;
     z-index: 10;
     box-shadow: -3px 3px 8px -1px #d3cef2;
     text-align: center;
     background: #fff;
     border-radius: 5px;
-    padding: 1.2rem;
+    padding: 1rem;
 }
 .gym-location span {
    width: 50px;

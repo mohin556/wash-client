@@ -4,18 +4,18 @@ import car from '../../image/clean.logo.PNG';
 import './Heading.css';
 const Heading = () => {
     return (
-       <section>
+       <section id='home' >
           <div className="container">
             <div className="hero-wrapper">
                <div className="hero-content">
-                  <h2 className='section-title'>Exercise is the key to a  <span className="highlight">Healthy</span> Lifestyle</h2>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iure suscipit, dicta quos sit officia fugit deserunt incidunt.</p>
+                  <h2 className='section-title' data-aos='fade up' data-aos-duration='1500' >Keep your car   <span className="highlight">Clean</span><br /> Always</h2>
+                  <p data-aos='fade up' data-aos-delay='200' data-aos-duration='2000' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iure suscipit, dicta quos sit officia fugit deserunt incidunt.</p>
               
                   <div className="hero-btns">
                      <button className='register-btn' >Get Started</button>
-                      <button className='watch-btn' >
+                      {/* <button className='watch-btn' >
                         <span> <i class="ri-play-fill"> Watch Video </i> </span>
-                        </button>
+                        </button> */}
                    </div>
                </div>
 
@@ -31,22 +31,22 @@ const Heading = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="heart-rate">
+                    {/* <div className="heart-rate" data-aos='fade right' data-aos-duration='1500' >
                          <h5>Heart rate</h5>
                          <span>
                          <i class="ri-heart-pulse-fill"></i>
                          </span>
                          <h6>2576 BPM</h6>
-                    </div>
+                    </div> */}
 
-                    <div className="gym-location">
+                    {/* <div className="gym-location" data-aos='fade left' data-aos-duration='1500' >
                         <span> <i class="ri-map-pin-fill"></i> </span>
                         <h5>Find a gym <br /> Loaction near?</h5>
-                    </div>
+                    </div> */}
 
-                    <div className="car-icon">
+                    {/* <div className="car-icon" data-aos='fade down' data-aos-duration='1500' >
                         <img src={car} alt="" />
-                    </div>
+                    </div> */}
 
                  </div>
 

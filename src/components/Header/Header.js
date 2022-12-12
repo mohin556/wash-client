@@ -1,34 +1,49 @@
-import React from 'react';
+import React,{useEffect, useRef} from 'react';
 import Logo1 from '../../image/clean.logo.PNG';
-import Logo2 from '../../image/Capture.PNG';
+import Logo2 from '../../image/am1).jfif';
 import 'remixicon/fonts/remixicon.css';
 import './Header.css';
 const Header = () => {
       const navs = [
               {
-                path: '#',
+                path: '#home',
                 display: 'Home'
               },
 
               {
-                path: '#',
-                display: 'Schedule'
+                path: '#review',
+                display: 'Review'
               },
               {
-                path: '#',
+                path: '#classe',
                 display: 'Classes'
               },
               {
-                path: '#',
-                display: 'Pricing'
+                path: '#services',
+                display: 'Services'
               },
 
 
       ]
+      const headerRef = useRef(null);
+
+      const navBar =()=>{
+        if(document.body.scrollTop >80 || document.documentElement.scrollTop > 8){
+          headerRef.current.classList.add('sticky-header')
+      } else {
+        headerRef.current.classList.remove('sticky-header')
+      }
+    }
+
+    useEffect(()=>{
+        window.addEventListener("scroll",navBar);
+        return ()=> window.removeEventListener("scroll",navBar)
+    },[])
+
 
 
     return (
-        <div className='header'>
+        <div className='header' ref={headerRef}  >
             <div className="container">
                  <div className="nav-bar">
                      <div className="logo">

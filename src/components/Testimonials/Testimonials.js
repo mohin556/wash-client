@@ -14,7 +14,7 @@ import image3 from '../../image/ervin.PNG';
 import { EffectCards } from "swiper";
 const Testimonials = () => {
     return (
-      <section>
+      <section id='review' >
         <div className="container slider">
 
           <h2 className="section-title">Testimonals</h2>

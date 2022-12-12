@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../image/GYMWOMEN.jpg'
+import img from '../../image/dryClen.PNG'
 import './Wash.css';
 const Wash = () => {
     return (
@@ -12,7 +12,7 @@ const Wash = () => {
 
                 <div className="star-content">
                    <h2 className='section-title' >
-                    Ready to make <span className="highlight">change</span>?
+                    Ready to dry <span className="highlight">wash !</span>
                    </h2>
                    
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis minus dolorem velit animi cupiditate sint cum sed praesentium debitis saepe. Odit aspernatur perferendis non hic ullam ex consequuntur quasi repudiandae?</p>

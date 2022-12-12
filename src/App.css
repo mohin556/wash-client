@@ -12,7 +12,9 @@
   --font-name:"Questrial",sans-serif;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 *{

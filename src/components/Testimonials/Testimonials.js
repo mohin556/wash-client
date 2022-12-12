@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import image1 from '../../image/testimonial2.PNG';
 import image2 from '../../image/testimonals1.PNG';
-import image3 from '../../image/GYMWOMEN.jpg';
+import image3 from '../../image/ervin.PNG';
 
 
 
@@ -16,6 +16,9 @@ const Testimonials = () => {
     return (
       <section>
         <div className="container slider">
+
+          <h2 className="section-title">Testimonals</h2>
+
         <>
       <Swiper
         effect={"cards"}

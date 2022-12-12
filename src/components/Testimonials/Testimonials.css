@@ -1,14 +1,32 @@
 .slider{
       width: 600px;
 }
+.slider h2{
+    font-size: 2.5rem;
+   text-align: center;
+   margin-bottom: 20px;
+}
 .swiper-slide{
     background: #fff;
-    padding: 40pxz;
+    padding: 40px;
     border-radius: 5px;
 }
 .slide-img-01 img, .slide-img-02 img, .slide-img-03 img{
     width: 100%;
+   height: 400px;
 }
-.slide-img-01 {
+/* .slide-img-03  {
     background: red;
+} */
+.slide-img-01,.slide-img-02,.slide-img-03{
+    border-radius: 08rem;
+    margin-bottom: 30px;
+}
+.slide-item h4 {
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+.slide-item p {
+   color: var(--heading-color);
+   line-height: 28px;
 }

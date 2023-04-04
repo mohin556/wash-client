@@ -14,13 +14,14 @@ const Header = () => {
                 path: '#review',
                 display: 'Review'
               },
-              {
-                path: '#classe',
-                display: 'Classes'
-              },
+           
               {
                 path: '#services',
                 display: 'Services'
+              },
+              {
+                path: '#footer',
+                display: 'About Us'
               },
 
 

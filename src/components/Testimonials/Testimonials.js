@@ -40,7 +40,7 @@ const Testimonials = () => {
             <div className="slide-img-02">
               <img src={image2}alt="" />
             </div>
-            <h4>Jesika Farnandes</h4>
+            <h4>Arvin hawlin</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab doloremque quod ullam ea est, consectetur voluptas earum. Commodi, provident vero quae tenetur perspiciatis omnis veritatis voluptatem enim doloremque quasi mollitia.</p>
            </div>
         </SwiperSlide>
@@ -49,7 +49,7 @@ const Testimonials = () => {
             <div className="slide-img-03">
               <img src={image3}alt="" />
             </div>
-            <h4>Jesika Farnandes</h4>
+            <h4>Anderson</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab doloremque quod ullam ea est, consectetur voluptas earum. Commodi, provident vero quae tenetur perspiciatis omnis veritatis voluptatem enim doloremque quasi mollitia.</p>
            </div>
         </SwiperSlide>

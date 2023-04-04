@@ -1,0 +1,25 @@
+.modern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modern-left{
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.modern-left h1 {
+    font-size: 2.5rem;
+    
+}
+.modern-left p {
+    color: var(--heading-color);
+    margin-top: 20px;
+}
+.modern-right{
+  
+}
+.modern-right img{
+    width: 110%;
+}

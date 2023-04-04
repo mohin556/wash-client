@@ -28,6 +28,8 @@
 }
 .footer-links li i {
     color: blueviolet;
+    font-size: 25px;
+    margin-left: 15px;
 }
 .footer-links li a {
     color: var(--heading-color);

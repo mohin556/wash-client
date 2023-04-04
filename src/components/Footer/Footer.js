@@ -3,7 +3,7 @@ import './Footer.css';
 import image from '../../image/footer2.PNG';
 const Footer = () => {
     return (
-        <footer className='footer' data-aos='fade up' data-aos-duration='1500' >
+        <footer id='footer' className='footer' data-aos='fade up' data-aos-duration='1500' >
              <div className="container">
                 <div className="footer-wrapper">
                     <div className="footer-box">

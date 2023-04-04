@@ -2,8 +2,8 @@ import React from 'react';
 import './Services.css';
 const Services = () => {
     return (
-        <section id='price' >
-            <div className="container">
+        <section id='services' >
+            <div className="  container">
                 <div className="service-top">
                     <h2 className="section-title">wash <span className="highlight">Service</span> packages</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, deserunt. br <br /> Sunt voluptatem doloribus adipisci quaerat?</p>
